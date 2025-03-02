@@ -89,7 +89,7 @@ def main_example() -> None:
     """
     monthly_input: float = 5100
     tax_rate: float = 43
-    expenses: dict = {"tango": 45, "super": 200, "rent": 650, "services": 110, "hollidays": 120}
+    expenses: dict = {"tango": 45, "super": 200, "rent": 650, "services": 110, "holidays": 120}
 
     calculate_finances(monthly_input, tax_rate, expenses, dollar_money_formatter)
 
